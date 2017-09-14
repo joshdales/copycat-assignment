@@ -17,6 +17,14 @@ nav {
   float: right;
 }
 
+section {
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%
+}
+
 .logo {
   line-height: 60px;
   font-size: 18px;
@@ -29,6 +37,27 @@ nav {
   z-index: 100;
   display: inline-block;
   margin-right: 10px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.hero-image {
+  float: left;
+  width: 60%;
+}
+.hero-content {
+  color: white;
+  font-size: 25px;
+  width: 40%;
+  float: left;
+  text-align: center;
+}
+
+#home {
+  background-color: #26547C;
 }
 
 nav>ul{
