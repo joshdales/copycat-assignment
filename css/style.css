@@ -36,7 +36,9 @@ img {
 
 footer {
   background-color: #06D6A0;
-  height: 50px;
+  line-height: 50px;
+  padding: 0px 20px;
+  text-align: right;
 }
 
 .logo {
@@ -85,6 +87,8 @@ footer {
 
 .team {
   color: #EF476F;
+  clear: both;
+  height: 50px;
 }
 
 .team-fun,
