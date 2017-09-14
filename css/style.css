@@ -34,6 +34,11 @@ img {
   max-width: 100%
 }
 
+footer {
+  background-color: #06D6A0;
+  height: 50px;
+}
+
 .logo {
   line-height: 60px;
   font-size: 18px;
@@ -74,6 +79,22 @@ img {
   width: 33%;
   float: left;
 }
+.about {
+  color: white;
+}
+
+.team {
+  color: #EF476F;
+}
+
+.team-fun,
+.team-values,
+.team-meow {
+  float: left;
+  width: 33%;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 #home {
   background-color: #26547C;
@@ -91,6 +112,8 @@ img {
 
 #about {
   background-color: #26547C;
+  padding: 30px 20px;
+
 }
 
 nav a {
