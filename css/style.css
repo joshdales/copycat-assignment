@@ -65,8 +65,13 @@ img {
   text-align: center;
 }
 
+.product-wrapper {
+  padding: 0px;
+}
+
 .product-item {
   padding: 10px;
+  width: 33%;
   float: left;
 }
 
@@ -84,6 +89,10 @@ img {
   padding: 30px 20px;
 }
 
+#about {
+  background-color: #26547C;
+}
+
 nav a {
   font-size: 20px;
   line-height: 60px;
@@ -94,6 +103,5 @@ ul.navbar{
 }
 
 .products img{
-  width: 33%;
   border: 3px solid black;
 }
