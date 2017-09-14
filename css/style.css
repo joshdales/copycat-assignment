@@ -1,0 +1,46 @@
+html{
+  font-family: "Helvetica Neue";
+}
+
+body {
+  margin: 0px;
+}
+
+header {
+  padding: 0px 20px;
+  position: relative;
+  background-color: #06D6A0;
+}
+
+nav {
+  display: inline-block;
+  float: right;
+}
+
+.logo {
+  line-height: 60px;
+  font-size: 18px;
+  color: white;
+  display: inline-block;
+  margin: 0px;
+}
+
+.nav-item {
+  z-index: 100;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav>ul{
+  list-style: none;
+  text-align: right;
+}
+
+nav a {
+  font-size: 20px;
+  line-height: 60px;
+}
+
+ul.navbar{
+  margin: 0px;
+}
